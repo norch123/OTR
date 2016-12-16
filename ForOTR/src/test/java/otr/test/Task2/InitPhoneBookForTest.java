@@ -18,13 +18,13 @@ public class InitPhoneBookForTest {
 
 		List<String> phoneNumber2 = new ArrayList<String>();
 		phoneNumber2.add("+8 800 2000 700");
-		phoneBook.put(new User("Петров П.П."), phoneNumber1);
+		phoneBook.put(new User("Петров П.П."), phoneNumber2);
 
 		List<String> phoneNumber3 = new ArrayList<String>();
 		phoneNumber3.add("+8 800 2000 800");
 		phoneNumber3.add("+8 800 2000 900");
 		phoneNumber3.add("+8 800 2000 000");
-		phoneBook.put(new User("Сидоров С.С."), phoneNumber1);
+		phoneBook.put(new User("Сидоров С.С."), phoneNumber3);
 
 		return phoneBook;
 	}
